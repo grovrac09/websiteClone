@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    align-self: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    align-self: center;
+    padding: 5px;
+    width: 125px;
+    margin: 4px;
+    transition-duration: 0.7s;
+}
+
+button:hover {
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+}
+
+.tour {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+#dateOne {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dateTwo {
+    background-color: crimson;
+}
+
+.tourDate {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+/* to change tour date button layout */
+.stack { 
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
