@@ -1,10 +1,12 @@
 body {
+    margin: 0;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
     font-family: 'Pathway Gothic One', sans-serif;
+    color: white;
+    text-align: center;
 }
 
 h1 {
@@ -36,7 +38,29 @@ button:hover {
     font-weight: bold;
 }
 
-.tour {
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+/* NAVIGATION */
+#nav {
+    padding: 35px;
+    font-size: 20px;
+}
+
+#nav a {
+    padding: 40px;
+    letter-spacing: 3px;
+}
+
+/* TOUR SECTION */
+#tour {
+    margin: 50px;
     display: flex;
     flex-direction: column;
     width: 30vw;
@@ -49,9 +73,54 @@ button:hover {
     justify-content: space-between;
 }
 
-#dateTwo {
-    background-color: crimson;
+/* #dateOne {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+#dateOne {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dateOne {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dateOne {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dateOne {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dateOne {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dateOne {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
 
 .tourDate {
     background-color: blueviolet;
@@ -63,4 +132,98 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-self: center;
+}
+
+/* UPDATE SECTION */
+.updates {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 15px;
+    width: 15vw;
+    margin: 20px;
+}
+
+.submitUpdate {
+    padding: 15px;
+    width: 16.5vw;
+}
+
+/* 'THE NOTHING' SECTION */
+#nothing {
+    display: flex;
+    align-items: center;
+}
+
+
+#shop {
+    width: 350px;
+    height: 350px;
+}
+
+#CD {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#vinyl {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nothingButtons {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+/* MERCH SECTION */
+.merch {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#merchImg {
+    width: 80vw;
+    padding: 25px;
+}
+
+.merchButton {
+    padding-bottom: 100px;
+}
+
+/* FOOTER */
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footnote {
+    font-family: "Open Sans", Arial;
+    font-size: 10px;
+    word-spacing: 3px;
+}
+
+i, iframe {
+    background-color: red;
+    width: 5vw;
+    font-size: 24px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
 }

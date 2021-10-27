@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a5a172da96.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Korn | Cloned Website</title>
 </head>
 
@@ -14,10 +15,10 @@
     <nav id="nav">
         <div class="nav-links">
             <a href="#">HOME</a>
-            <a href="#">THE NOTHING</a>
-            <a href="#">TOUR</a>
-            <a href="#">STORE</a>
-            <a href="#">WALLPAPER</a>
+            <a href="#nothing">THE NOTHING</a>
+            <a href="#tour">TOUR</a>
+            <a href="https://eu.kornwebstore.com/uk/">STORE</a>
+            <a href="https://www.kornofficial.com/wallpaper/">WALLPAPER</a>
         </div>
     </nav>    
 
@@ -27,15 +28,16 @@
       </video>
 </div>
 
-<div class="tour">
+<div id="tour">
     <h1>TOUR DATES</h1>
     <div id="dateOne">
         <p>Fri, FEB 4,<br>2022<br>Banc of California Stadium<br>Los Angeles, CA</p>
         <div class="stack">
         <button type="button">RSVP</button>
         <button type="button">TICKETS</button>
-        </div>
     </div>
+
+</div>
 <button type="button">SHOW ALL DATES</button>
 </div>
 
@@ -44,33 +46,35 @@
 <form class ="emailAddress">
     <input type="email" placeholder="Email...">
 </form>
-<button type="button">SUBMIT</button>
+<button class="submitUpdate" type="button">SUBMIT</button>
 <p><a target="_blank" href="#">TERMS</a></p>
 </div>
 
-<div class="store">
 <h1>The Nothing</h1>
+<div id="nothing">
     <div id="CD">
-        <a href="#" target="blank"> <img src="./images/CD.jpg" alt="The Nothing album"></a>
-        <button type="button">GET IT NOW</button>  
+        <a href="#" target="blank"> <img id="shop" src="./images/CD.jpg" alt="The Nothing album"></a>
     </div>
-    <div id="fullStore">
-        <a href="#" target="blank"> <img src="./images/vinyl.png" alt=""></a>
-        <button type="button">SHOP NOW</button>
+    <div id="vinyl">
+        <a href="#" target="blank"> <img id="shop" src="./images/vinyl.png" alt=""></a>
+        </div>
     </div>
+<div class="nothingButtons">
+<button type="button">GET IT NOW</button>  
+<button type="button">SHOP NOW</button>
 </div>
 
-<div class="merch">
+<div id="merch">
     <h1>MERCHANDISE</h1>
-    <a href="#" target="blank"> <img src="./images/merch.jpg" alt=""></a>
-        <button type="button">SHOP NOW</button>
+    <a href="#" target="blank"> <img id="merchImg" src="./images/merch.jpg" alt=""></a>
+<div class="merchButton">
+    <button type="button">SHOP NOW</button>
+</div>
 </div>
 
 <footer>
-    <div class="socials">
-        <i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i><i class="fab fa-instagram"></i><i class="fab fa-youtube"></i><i class="fab fa-spotify"></i><i class="fab fa-apple"></i><i class="fab fa-soundcloud"></i><iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD?si=elFAeRqmRAinI_tj68_xpg&size=basic&theme=dark&show-count=0" width="200" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-    </div>
-    <p>© COPYRIGHT 2021 KORN <a target="_blank" href="https://www.atlanticrecords.com/privacy-policy/">PRIVACY POLICY</a> | <a target="_blank" href="https://www.roadrunnerrecords.com/terms-of-use/">TERMS OF USE</a> | <a target="_blank" href="https://www.atlanticrecords.com/privacy-policy/#adchoices">AD CHOICES</a> | <a target="_blank" href="https://www.wminewmedia.com/cookies-policy/?ot=97ee6152-f896-4c88-a46e-abe3fba1a2c3&url=www.kornofficial.com">COOKIES POLICY</a> | <a href="#">COOKIE SETTINGS</a></p>
+    <p class="socials"><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i><i class="fab fa-instagram"></i><i class="fab fa-youtube"></i><i class="fab fa-spotify"></i><i class="fab fa-apple"></i><i class="fab fa-soundcloud"></i><iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:3RNrq3jvMZxD9ZyoOZbQOD?si=elFAeRqmRAinI_tj68_xpg&size=basic&theme=dark&show-count=0" width="200" height="25" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></p>
+    <p class="footnote">© COPYRIGHT 2021 KORN <a target="_blank" href="https://www.atlanticrecords.com/privacy-policy/">PRIVACY POLICY</a> | <a target="_blank" href="https://www.roadrunnerrecords.com/terms-of-use/">TERMS OF USE</a> | <a target="_blank" href="https://www.atlanticrecords.com/privacy-policy/#adchoices">AD CHOICES</a> | <a target="_blank" href="https://www.wminewmedia.com/cookies-policy/?ot=97ee6152-f896-4c88-a46e-abe3fba1a2c3&url=www.kornofficial.com">COOKIES POLICY</a> | <a href="#">COOKIE SETTINGS</a></p>
 </footer>
 
 </body>
