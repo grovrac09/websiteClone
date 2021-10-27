@@ -1,4 +1,9 @@
-body {
+/* BASICS */
+html {
+    scroll-behavior: smooth;
+} 
+    
+    body {
     margin: 0;
     background-color: black;
     display: flex;
@@ -27,7 +32,8 @@ button {
     color: white;
     align-self: center;
     padding: 5px;
-    width: 125px;
+    width: 180px;
+    height: 40px;
     margin: 4px;
     transition-duration: 0.7s;
 }
@@ -36,6 +42,10 @@ button:hover {
     background-color: grey;
     color: black;
     font-weight: bold;
+}
+
+.bottomButton {
+    width: 120px;
 }
 
 a:link {
@@ -47,84 +57,39 @@ a:visited {
     color: white;
 }
 
+.logo {
+    padding: 100px;
+}
+
+
+
 /* NAVIGATION */
-#nav {
-    padding: 35px;
+.nav {
+    padding: 40px;
     font-size: 20px;
 }
 
-#nav a {
+.nav a {
     padding: 40px;
     letter-spacing: 3px;
 }
+
+
 
 /* TOUR SECTION */
 #tour {
     margin: 50px;
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 40vw;
 }
 
-#dateOne {
+.date {
     padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-/* #dateOne {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#dateOne {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#dateOne {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#dateOne {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#dateOne {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#dateOne {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#dateOne {
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-} */
-
-.tourDate {
-    background-color: blueviolet;
-    padding: 10px;
+    text-align: left;
 }
 
 /* to change tour date button layout */
@@ -133,6 +98,8 @@ a:visited {
     flex-direction: column;
     align-self: center;
 }
+
+
 
 /* UPDATE SECTION */
 .updates {
@@ -149,9 +116,15 @@ input {
 }
 
 .submitUpdate {
-    padding: 15px;
     width: 16.5vw;
+    height: 50px;
 }
+
+#termText {
+    font-size: 16px;
+}
+
+
 
 /* 'THE NOTHING' SECTION */
 #nothing {
@@ -187,6 +160,8 @@ input {
     padding-bottom: 100px;
 }
 
+
+
 /* MERCH SECTION */
 .merch {
     margin: 50px;
@@ -204,8 +179,11 @@ input {
     padding-bottom: 100px;
 }
 
+
+
 /* FOOTER */
 footer {
+    background-color: royalblue;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -219,8 +197,8 @@ footer {
 
 i, iframe {
     background-color: red;
-    width: 5vw;
     font-size: 24px;
+    /* width: 100vw; */
 }
 
 .socials {
