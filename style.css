@@ -57,19 +57,19 @@ a:visited {
     color: white;
 }
 
-.logo {
-    padding: 100px;
+#logo {
+    padding: 70px;
 }
 
 
 
 /* NAVIGATION */
-.nav {
+#nav {
     padding: 40px;
     font-size: 20px;
 }
 
-.nav a {
+#nav a {
     padding: 40px;
     letter-spacing: 3px;
 }
